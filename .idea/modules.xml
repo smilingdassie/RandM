@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/VisaulFusion.iml" filepath="$PROJECT_DIR$/VisaulFusion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandM.iml" filepath="$PROJECT_DIR$/RandM.iml" />
+      <module fileurl="file://D:\Work\RandM\RandM\VisaulFusion.iml" filepath="D:\Work\RandM\RandM\VisaulFusion.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
