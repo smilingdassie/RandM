@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_install_gps_check_out"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dsouchon.wayo.visualfusion.InstallGpsCheckOut"
+ >
+
+    <TextView
+        android:text="[Store URN]"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="124dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="136dp"
+        android:id="@+id/txtStoreURN"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="Site Incomplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/btnSiteIncomplete"
+        android:textSize="24sp"
+        android:layout_below="@+id/btnSiteComplete"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:onClick="SiteIncomplete"
+        />
+
+    <Button
+        android:text="Site Complete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginTop="80dp"
+        android:id="@+id/btnSiteComplete"
+        android:textSize="24sp"
+        android:layout_below="@+id/txtStoreURN"
+        android:layout_alignRight="@+id/btnSiteIncomplete"
+        android:layout_alignEnd="@+id/btnSiteIncomplete"
+        android:onClick="SiteComplete"
+        />
+</RelativeLayout>

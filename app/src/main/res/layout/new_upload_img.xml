@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_activty"
+    tools:context="com.dsouchon.wayo.visualfusion.RepHomeActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/backgroud_gradient">
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+
+            <Button
+                android:text="From Camera"
+                android:id="@+id/addstore"
+                android:onClick="addStore"
+                android:drawableRight="@drawable/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="350dp"
+                android:maxWidth="100dp"
+                android:minHeight="60dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="#fdc313"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center_vertical"
+                android:textAlignment="gravity"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:text="From Gallery"
+                android:id="@+id/addstore1"
+                android:onClick="addStore"
+                android:drawableRight="@drawable/plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="350dp"
+                android:maxWidth="100dp"
+                android:minHeight="60dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="#fdc313"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center_vertical"
+                android:textAlignment="gravity"
+                android:layout_weight="1"
+                />
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#efefef"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/camera"
+                android:id="@+id/imageView3"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:padding="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+
+            <EditText
+
+                    android:hint="General Complaint description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView4" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#a9a9a9"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+
+        <Button
+                android:text="Upload"
+                android:id="@+id/backtomenu"
+                android:onClick="backtomenu"
+                android:drawableRight="@drawable/upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="350dp"
+                android:maxWidth="100dp"
+                android:minHeight="60dp"
+                android:textColor="#ffffff"
+                android:backgroundTint="#fdc313"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center_vertical"
+                android:textAlignment="gravity"
+                />
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">VisualFusion</string>
+    <string name="Home">Home</string>
+    <string name="Logout">Logout</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_signature">Signature</string>
+
+    <string name="action_download">Download</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_info">Info</string>
+
+    <string name="message">Info</string>
+    <string name="cancel">Cancel</string>
+    <string name="vInfo">Version Info</string>
+
+    <string name="c_name">Kyanogen Technologies</string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="Downloads">Downloads</string>
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string name="title_activity_upload_photo_prelim">UploadPhotoPrelim</string>
+    <string name="agreement">I agree to the terms and conditions.</string>
+    <string name="clear_pad">Clear Pad</string>
+    <string name="save_signature">Agree</string>
+
+    <string name="agreement2">This Agreement has been discussed and the above terms and conditions agreed by both parties on this </string>
+    <string name="landingheader1">The Project Promise</string>
+    <string name="landingheader2">Dos and Don\'ts of Installation</string>
+    <string name="landingheader3">Lighthouse welcomes the Installation Teams</string>
+
+    <string name="landingtext1">TRANSFORM KENYAN ON-TRADE FOR CUSTOMERS, CONSUMERS, AND THE EABL BRANDS THROUGH CREATION OF 4500 BEACON OUTLETS WITH PERMANENT VISIBILITY DRIVING A SUSTAINABLE +5% ROS INCREASE DURING PROJECT LIFE. We will achieve this through: 1. Being proud of the Brands that we are working with. 2. Delivering a Brand experience for the outlet patrons. 3. Creating great zoning for the Lighthouse elements. 4. Deliver Nationwide impact across Kenya. 5. Deliver speed to market to influence sales in 2018. 6. Ensure investment delivers a positive return for EABL. 7. Leverage the science of behavioural understanding - units working together to create impactful and change-inducing installations. 8. Adoption of a “Tiered” approach, thereby balancing impact and scale. 9. Ensuring ease of implementation, seamless delivery and brilliance in execution, asset tracking and M and E. WE NEED YOU to realise this brilliance in execution. </string>
+    <string name="landingtext2">DOs: 1. Call the outlet owner and rep in advance. 2. Stick to the installation plan. 3. Be punctual. 4. Use the app. 5. Follow the 7 steps to a winning installation. 6. Communicate issues. 7. Be punctual. 8. Be punctual (We think you get the drift). DON\'Ts: 1. Do not install anything over existing branding. 2. Do not install Wall Branding Graphic Panels in any other configuration from what has been stipulated. 3. Do not take on any out-of-scope works without prior approval. Lighthouse welcomes the Installation Teams</string>
+    <string name="landingtext3">Karibu to all of the installers that are going to be working on Project Lighthouse in phase 2. We are pleased to have you on board, and look forward to seeing GREAT work. Training sessions that were held from 21-25 May with the teams were a great success. Teams were engaged, participation was good and everyone learnt a lot. Looking forward to great things in Phase 2! </string>
+
+    <string name="enter_name">Country Name</string>
+    <string name="add_record">Add Record</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="empty_list_text">No records found</string>
+    <string name="enter_desc">Currency</string>
+    <string name="enter_title">Country</string>
+
+    <string name="checkbox">Skip News. App v3.20</string>
+</resources>

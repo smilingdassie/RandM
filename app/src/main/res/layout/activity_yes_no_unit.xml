@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dsouchon.wayo.visualfusion.YesNoUnit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/backgroud_gradient">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Can the unit be installed as intended?"
+            android:textSize="24sp" />
+
+        <RadioGroup
+            android:id="@+id/radioCommitted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/radioYes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="140dp"
+                android:layout_weight="1"
+                android:backgroundTint="#8f8f8f"
+                android:onClick="onRadioButtonClicked"
+                android:text="Yes"
+                android:textColor="#8f8f8f"
+                android:textSize="18dp" />
+
+            <RadioButton
+                android:id="@+id/radioNo"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#8f8f8f"
+                android:onClick="onRadioButtonClicked"
+                android:text="No"
+                android:textColor="#8f8f8f"
+                android:textSize="18dp" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnClearRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#fdc313"
+            android:maxWidth="100dp"
+            android:minHeight="60dp"
+            android:minWidth="150dp"
+            android:onClick="ClearRadio"
+            android:text="Clear Selection"
+            android:textColor="#ffffff"
+
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/txtWhyNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Why was unit not accepted?"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/editWhyNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="[Enter Reason]"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Quantity"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/editQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:hint="[Qty]"
+            android:textSize="24sp"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/txtWhat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="What would you like to do?"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnUnitLocationUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#fdc313"
+            android:maxWidth="100dp"
+            android:minHeight="60dp"
+            android:minWidth="350dp"
+            android:onClick="UploadUnitImage"
+
+            android:text="Upload Unit Location"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#fdc313"
+            android:maxWidth="100dp"
+            android:minHeight="60dp"
+            android:minWidth="350dp"
+            android:onClick="Uploads"
+
+            android:text="Submit"
+            android:textColor="#ffffff"
+
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#fdc313"
+            android:maxWidth="100dp"
+            android:minHeight="60dp"
+            android:minWidth="350dp"
+            android:onClick="Cancel"
+
+            android:text="Cancel"
+            android:textColor="#ffffff"
+
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

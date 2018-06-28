@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  android:orientation="vertical"
+    tools:context="com.dsouchon.wayo.visualfusion.GoodNews2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Lighthouse Gazette"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+
+
+    <ImageView
+        android:id="@+id/pic2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/pic3new"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="220dp" />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/landingheader2"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="125dp" />
+        <TextView
+            android:id="@+id/text2a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/landingtext2"
+            android:textSize="12dp"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="125dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Continue"
+            android:text="Continue"
+            android:backgroundTint="#fdc313"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
+</android.widget.LinearLayout>

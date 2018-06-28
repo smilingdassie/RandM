@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dsouchon.wayo.visualfusion">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.READ_INTERNAL_STORAGE"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.WRITE_INTERNAL_STORAGE"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        android:required="false" />
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"
+        android:required="false" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Wayo v2.0"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeMenu"
+            android:label="Home Menu" />
+        <activity
+            android:name=".RepHomeActivity"
+            android:label="Home" />
+        <activity
+            android:name=".RepStoreDetailsActivity"
+            android:label="Store Details" />
+        <activity
+            android:name=".RepItemsActivity"
+            android:label="Select Item Quantities" />
+        <activity
+            android:name=".RepExtraDetailsActivity"
+            android:label="Extra Details" />
+        <activity
+            android:name=".RepSelectStoreForUnitry"
+            android:label="Select Store" />
+        <activity
+            android:name=".RepProgressActivity"
+            android:label="View Store Progress" />
+        <activity
+            android:name=".RepInfoActivity"
+            android:label="Store Info" />
+        <activity
+            android:name=".RepAgreement"
+            android:label="Store Agreement" />
+        <activity
+            android:name=".RepValidatedActivity"
+            android:label="Validate Store" />
+        <activity
+            android:name=".TssHome"
+            android:label="Tss Home" />
+        <activity
+            android:name=".TssOpenRequests"
+            android:label="Tss Open Requests" />
+        <activity
+            android:name=".TssAcceptRequest"
+            android:label="Tss Accept Request" />
+        <activity
+            android:name=".TssAppointments"
+            android:label="View Tss Appointments" />
+        <activity
+            android:name=".TssSetAppointment"
+            android:label="Set Tss Appointment" />
+        <activity
+            android:name=".TssSelectStoreForUnitry"
+            android:label="Select Store" />
+        <activity
+            android:name=".TssUnitaryList"
+            android:label="Unitary List" />
+        <activity
+            android:name=".RepUnitaryList"
+            android:label="Unitary List" />
+        <activity
+            android:name=".TssUploadActivity"
+            android:label="Tss Uploads" />
+        <activity
+            android:name=".TssValidateStore"
+            android:label="Tss Validate Install" />
+        <activity
+            android:name=".WareHouseHomeActivity"
+            android:label="Warehouse Home" />
+        <activity
+            android:name=".WarehouseOpenRequests"
+            android:label="Warehouse Open Requests" />
+        <activity
+            android:name=".WareHouseAcceptRequest"
+            android:label="Accept Warehouse Request" />
+        <activity
+            android:name=".WarehouseViewAccepted"
+            android:label="Warehouse Appointments" />
+        <activity
+            android:name=".WarehouseSetAppointment"
+            android:label="Set Warehouse Appointment" />
+        <activity
+            android:name=".WarehouseSelectStoreForUnitry"
+            android:label="Select Store" />
+        <activity
+            android:name=".WarehouseUnitryList"
+            android:label="Warehouse Unitary List" />
+        <activity
+            android:name=".WareHouseUnitary"
+            android:label="Ware House Unitary" />
+        <activity
+            android:name=".InstallHome"
+            android:label="Installation Team Home" />
+        <activity
+            android:name=".InstallOpenRequests"
+            android:label="Installation Open Requests" />
+        <activity
+            android:name=".InstallAcceptRequest"
+            android:label="Accept Installation Request" />
+        <activity
+            android:name=".InstallAppointments"
+            android:label="Appointments" />
+        <activity
+            android:name=".InstallSetAppointment"
+            android:label="Installation Appointment" />
+        <activity
+            android:name=".InstallSelectStoreForUnitry"
+            android:label="Select Store" />
+        <activity
+            android:name=".InstallUnitaryList"
+            android:label="Install Unitary List" />
+        <activity
+            android:name=".InstallUploadActivity"
+            android:label="Installation Uploads " />
+        <activity
+            android:name=".InstallValidateStore"
+            android:label="Validate Installation" />
+        <activity android:name=".UploadImage" />
+        <activity
+            android:name=".UploadPhoto"
+            android:label="Upload Photo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UploadMenu" />
+        <activity
+            android:name=".InstallGpsCheckin"
+            android:label="Install Checkin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InstallGpsCheckOut"
+            android:label="Install Checkout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".InstallGpsCheckoutSiteComplete"
+            android:label="Check Out Confirm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UploadPhotoPrelim"
+            android:label="@string/title_activity_upload_photo_prelim"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Signature"
+            android:label="Signature" />
+        <activity
+            android:name=".SurveyActivity"
+            android:label="Survey" />
+        <activity
+            android:name=".YesNoUnit"
+            android:label="Yes No Unit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewFavorites1"
+            android:label="Performance Review of Installation" />
+        <activity
+            android:name=".NewFavorites2"
+            android:label="Question 2" />
+        <activity
+            android:name=".NewFavorites3"
+            android:label="Question 3" />
+        <activity
+            android:name=".NewFavorites4"
+            android:label="Question 4" />
+        <activity
+            android:name=".NewFavorites5"
+            android:label="Question 5" />
+        <activity
+            android:name=".NewFavorites6"
+            android:label="Question 6" />
+        <activity
+            android:name=".NewFavorites7"
+            android:label="Question 7" />
+        <activity
+            android:name=".Thankyou"
+            android:label="Complete" />
+        <activity
+            android:name=".PreSignPerformanceReview"
+            android:label="Complete" />
+        <activity android:name=".ThankYouSurvey" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDKHK60Y73x3KfIPMMKG1xoEMsEDyZ2_jg" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".GetMyLocation" />
+        <activity
+            android:name=".BarcodeScanner"
+            android:label="Scan Barcode" />
+        <activity android:name=".OpenScanner" />
+        <activity
+            android:name=".CaptureActivityPortrait"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".UnitryUploadsOnly" />
+        <activity android:name=".OtherUploads" />
+        <activity android:name=".MapsActivitySlim" />
+        <activity android:name=".ContractLast" />
+        <activity android:name=".SignatureActivity" />
+        <activity android:name=".GoodNews" />
+        <activity android:name=".GoodNews2" />
+        <activity android:name=".GoodNews3" />
+        <activity android:name=".CountryListActivity" />
+        <activity android:name=".AddCountryActivity" />
+        <activity android:name=".ModifyCountryActivity"></activity>
+    </application>
+
+</manifest>

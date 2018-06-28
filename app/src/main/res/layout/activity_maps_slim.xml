@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.dsouchon.wayo.visualfusion.MapsActivitySlim">
+
+<Button android:id="@+id/slimbutton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Display My GPS"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:onClick="DisplayGps2"
+    android:backgroundTint="#fdc313"
+    />
+
+<Button android:id="@+id/btnCancel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Cancel"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:onClick="Cancel"
+    android:backgroundTint="#fdc313"
+    />
+
+
+</LinearLayout>

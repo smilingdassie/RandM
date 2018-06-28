@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</LinearLayout>
+
+<!-- blow is the layouts what they do and there linked java files
+
+download_layout.xml
+linked to DowloadActiviy.java
+this downloads pdfs from webservere
+Downloads pdf screen
+
+grid_row_uploads.xml
+Linked to adoptor: RepGridViewCustomAdapter.
+Creates layout for adapter
+
+LoginLayout.xml
+Linked to LoginActivity
+Login Screen
+
+Rep_agreement_layout.xml
+Linked to RepAgreement Activity
+Agreement screen where yes/ no buttons are
+
+rep_extradetails.xml
+Linked to  RepExtraDetailsActivity
+Extra details filled in here like brand and tier
+
+rep_home_layout.xml
+Linked to RepHomeActivity
+Home screen after login
+
+Rep_progress_layout.xml
+Linked to RepProgressACtivity
+This click off from main screen, shows progress off stores and will click through to store info
+
+Rep_store_details.
+Linked to RepStoreDetailsAcitivy_
+User inputs store details here
+
+Rep_store_info_layout.xml
+linked to RepInfoActivity
+This is the screen where all store infromation is stored
+
+Rep_upload_layout.xml
+linked to RepInfoAcitivy
+This is the screen where all store infromation is stored
+
+Rep_validated_Layout.xml
+Linked to RepValidatedActivity
+Confirmation page once all store info is put in  -->
+
+
+

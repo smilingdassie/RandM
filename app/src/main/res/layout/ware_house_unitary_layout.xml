@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ware_house_unitary_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.dsouchon.wayo.visualfusion.WareHouseUnitary">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#8f8f8f"
+        android:padding="5dp">
+
+        <TextView
+            android:hint="Discrition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ten"
+            android:backgroundTint="#ffffff"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:layout_marginLeft="25dp"
+
+            android:layout_weight="2" />
+        <TextView
+            android:hint="QTY Set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/elevenNew"
+            android:backgroundTint="#ffffff"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+
+            android:layout_weight="4" />
+
+        <TextView
+            android:hint="QTY Used"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eleven"
+            android:backgroundTint="#ffffff"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridViewCustom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="1"
+        android:layout_marginBottom="80dp"
+        android:layout_marginTop="40dp" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="continuebtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:text="Finish"
+            android:backgroundTint="#fdc313"
+            android:textColor="#ffffff"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

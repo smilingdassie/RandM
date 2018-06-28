@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.kyanogen.signature.Signature">
+
+    <item android:id="@+id/action_download" android:title="Save"
+        android:orderInCategory="100" app:showAsAction="always" />
+        <!---->android:icon="@drawable/savesign" />
+
+    <item android:id="@+id/action_clear" android:title="@string/action_clear"
+        android:orderInCategory="100" app:showAsAction="always" />
+       <!----> android:icon="@drawable/clearsign"/>
+
+    <item android:id="@+id/action_skip" android:title="Skip"
+        android:orderInCategory="100" app:showAsAction="always" />
+        <!---->android:icon="@drawable/skipsign"/>
+
+    <!--<item android:id="@+id/action_info" android:title="@string/action_info"-->
+        <!--android:orderInCategory="100" app:showAsAction="always"-->
+        <!--android:icon="@drawable/ic_info_white_24dp"/>-->
+
+</menu>

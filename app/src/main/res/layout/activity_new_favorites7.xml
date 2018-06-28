@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_activty"
+    tools:context="com.dsouchon.wayo.visualfusion.NewFavorites1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/backgroud_gradient">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="7. General Quality?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="* Are you happy with the general quality of the installation / workmanship?
+"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/fav1id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/button_state_heart"
+                android:maxWidth="100dp"
+                android:minHeight="60dp"
+                android:minWidth="350dp"
+
+                android:onClick="Favorites1"
+                android:textColor="#ffffff"
+
+                />
+
+            <Button
+                android:id="@+id/fav2id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/button_state_heart"
+                android:maxWidth="100dp"
+                android:minHeight="60dp"
+                android:minWidth="350dp"
+
+                android:onClick="Favorites2"
+                android:textColor="#ffffff"
+
+                />
+
+            <Button
+                android:id="@+id/fav3id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/button_state_heart"
+                android:maxWidth="100dp"
+                android:minHeight="60dp"
+                android:minWidth="350dp"
+
+                android:onClick="Favorites3"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/fav4id"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/button_state_heart"
+                android:maxWidth="100dp"
+                android:minHeight="60dp"
+                android:minWidth="350dp"
+                android:onClick="Favorites4"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/fav5id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/button_state_heart"
+                android:maxWidth="100dp"
+                android:minHeight="60dp"
+                android:minWidth="350dp"
+
+                android:onClick="Favorites5"
+                android:textColor="#ffffff" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/continue_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:maxWidth="100dp"
+            android:minHeight="60dp"
+            android:minWidth="350dp"
+            android:onClick="Continue"
+            android:text="Continue"
+            android:textColor="#ffffff"
+            android:background="@drawable/continue_button_state"
+            android:enabled="false"
+            android:layout_marginTop="40dp">
+
+        </Button>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  android:orientation="vertical"
+    tools:context="com.dsouchon.wayo.visualfusion.OtherUploads">
+
+    <android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/txtJobCardCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="txtJobCardCount"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:visibility="gone" />
+    <Button
+        android:id="@+id/btnUploadJobCard"
+        android:onClick="UploadJobCard"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Completed job card"
+        android:backgroundTint="#fdc313"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:layout_marginRight="10dp" />
+        <TextView
+            android:id="@+id/txtExteriorImageCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="txtExteriorImageCount"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:visibility="gone" />
+    <Button
+        android:id="@+id/btnExteriorImage"
+        android:onClick="SurveyStoreExterior"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Exterior Image"
+        android:backgroundTint="#fdc313"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/btnProductComplaint"
+        android:onClick="GeneralComplaint"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="General Complaint"
+        android:backgroundTint="#fdc313"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+        <TextView
+            android:id="@+id/txtInteriorImageCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="txtInteriorImageCount"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:visibility="gone" />
+    <Button
+        android:id="@+id/btnInteriorImage"
+        android:onClick="SurveyStoreInterior"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Interior Image"
+        android:backgroundTint="#fdc313"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+
+
+</android.widget.LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Back"
+        android:text="BACK" />
+
+
+</android.widget.LinearLayout>

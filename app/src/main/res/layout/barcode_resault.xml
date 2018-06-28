@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_barcode_scanner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="#ffffff"
+    tools:context="com.dsouchon.wayo.visualfusion.BarcodeScanner">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Purpose"
+            android:id="@+id/txtPurpose"
+            android:text="Purpose"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textColorHint="#000000"
+            android:textSize="24dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="TagNumber"
+            android:id="@+id/editTagNumber"
+            android:text="|B| A |R |C |O |D |E|"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textColorHint="#000000"
+            android:textSize="24dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <Button
+            android:id="@+id/scanner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="scanBar"
+            android:text="Scan Next"
+            android:background="@drawable/button_state"
+            style="@style/button_style"
+            android:visibility="gone"
+          />
+
+        <Button
+            android:id="@+id/scanningComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="scanningComplete"
+            android:text="Scan Complete"
+            android:background="@drawable/button_state"
+            style="@style/button_style"
+            />
+
+
+        <Button
+            android:id="@+id/errorDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="errorDelete"
+            android:text="Error - Redo"
+            android:background="@drawable/button_state"
+            style="@style/button_style"
+            />
+
+        <Button
+            android:id="@+id/resetAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Reset"
+            android:text="Reset All - Start Again"
+            android:background="@drawable/button_state"
+            style="@style/button_style"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Home"
+            android:text="Home"
+            android:background="@drawable/button_state"
+            style="@style/button_style"
+            android:visibility="gone"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
